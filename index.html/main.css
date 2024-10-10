@@ -1,17 +1,40 @@
 body {
     background-color: lightblue;
 }
+nav, footer{
+    background-color: steelblue;
+    display: flex;
+}
 h1{
     text-align: center;
 }
 img{
-    width: 50px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 #active (
     background
 )
 a {
-    color: darkmagenta;
+    color: #aaa;
     padding: 25px;
     font-size: 24px;
+}
+p {
+    width: 70%;
+    text-align: center;
+    margin: 25px auto;
+}
+footer p{
+    color: beige;
+    text-align: center;
+}
+main a{
+    color:blueviolet;
+    padding: 0px;
+}
+a:hover{
+    background-color: #aaa;
+    color: steelblue;
 }
