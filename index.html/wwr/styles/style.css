@@ -9,7 +9,7 @@ h2{
     margin: 0;
 }
 
-p {
+p, a {
     font-family: ubuntu, quicksand, sans-serif;
 }
 
