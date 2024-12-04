@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Inconsolata:wght@200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Poiret+One&display=swap');
+p {
+    font-family: Inconsolata, "Golos Text", sans-serif;
+}
+
+h1 {
+    font-family: "Poiret One", Livvic, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    margin-bottom: 100px;
+    background-color: #3454d1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav a {
+    margin: auto 10px;
+    color: #d3ffe9;
+}
+
+nav a:hover {
+    color: #bb4430;
+    background-color: #d3ffe9;
+}
+
+#big-logo {
+    width: 300px;
+    height: 300px;
+}
+
+.home-box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 250px;
+}
+
+#resto-link {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+#obscure-link{
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+footer{
+    background-color: #3454d1;
+    display: grid;
+    grid-template-columns: 100px 1fr 300px;
+}
+
+footer .foot-link a {
+    justify-self: center;
+    color: #d3ffe9;
+    margin: auto 10px;
+}
+
+footer .foot-link a:hover {
+    color: #bb4430;
+    background-color: #d3ffe9;
+}
+
+footer p {
+    margin: auto 0;
+}
+
+.foot-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
