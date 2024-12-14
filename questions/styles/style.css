@@ -114,3 +114,26 @@ footer p {
 #obscure-two {
     width: 20%;
 }
+
+#res-one{
+    width: 200px;
+}
+
+#res-two{
+    width: 200px;
+}
+
+#res-three{
+    display: block;
+    margin: 0 auto;
+}
+
+#sola{
+    width: 85%;
+    float: right;
+}
+
+#bom {
+    width: 80%;
+    float: left;
+}
